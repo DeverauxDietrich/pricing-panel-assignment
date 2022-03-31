@@ -103,6 +103,11 @@ body {
     }
     .pricing-plan {
         border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 15px;
+    }
+    .pricing-plan:last-child {
+        border-right: none;
     }
 }
 
